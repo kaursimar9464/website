@@ -329,10 +329,16 @@ a {
     margin: 3rem 0;
     padding: 0;
 }
+.portfolio-grid {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 
 .portfolio .portfolio-card {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     opacity: 0;
     transform: translateY(50px);
     height: 31.25rem;
