@@ -29,9 +29,6 @@
   <nav class="fixed w-full z-50 glass border-b border-slate-700/60">
     <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
       <a href="#top" class="flex items-center gap-3">
-        <img src="Assets/Simarpreet_Kaur_TightlyCropped.png"
-             alt="Simarpreet Kaur logo"
-             class="w-10 h-10 rounded-full border border-slate-700/60" />
         <span class="text-sm font-semibold tracking-widest uppercase text-slate-200">Simarpreet Kaur</span>
       </a>
 
@@ -56,68 +53,91 @@
   </nav>
 
   <!-- HERO -->
-  <header id="top" class="min-h-screen flex items-center justify-center pt-28 pb-16">
-    <div class="max-w-6xl w-full mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+ <header id="top" class="min-h-screen flex items-center justify-center pt-28 pb-16">
+  <div class="max-w-6xl w-full mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
-      <!-- Left: Text -->
-      <div>
-        <p class="text-xs uppercase tracking-[0.24em] text-slate-400 mb-3">
-          Applied AI • ML • NLP • Analytics
+    <!-- Left: Text -->
+    <div>
+      <p class="text-xs uppercase tracking-[0.24em] text-slate-400 mb-3">
+        Applied AI • ML • NLP • Analytics
+      </p>
+
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-5">
+        Simarpreet Kaur
+      </h1>
+
+      <h2 class="text-xl md:text-2xl font-light text-slate-300 mb-6">
+        Building <span class="gradient-text font-semibold">reliable ML systems</span> and data products.
+      </h2>
+
+      <p class="text-slate-400 max-w-xl leading-relaxed mb-8">
+        I work across the full pipeline: messy data → clean features → models → evaluation → deployable outputs.
+        Interested in NLP, predictive modeling, and practical analytics that ship.
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <a href="#projects"
+           class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-full font-semibold transition">
+          View Projects
+        </a>
+
+        <a href="Assets/Images/Simarpreet_Kaur - Resume.pdf"
+           class="border border-slate-600 hover:border-sky-400 px-6 py-3 rounded-full font-semibold transition"
+           download="SimarpreetKaurCV">
+          Download Resume
+        </a>
+
+        <a href="#contact"
+           class="border border-slate-700/70 hover:border-slate-500 px-6 py-3 rounded-full font-semibold transition text-slate-200">
+          Contact
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Profile / Highlights (replaces signature GIF) -->
+    <div class="glass rounded-3xl border border-slate-700/60 p-6">
+
+      <!-- Identity block -->
+      <div class="rounded-2xl border border-slate-700/60 bg-slate-950/40 p-6">
+        <p class="text-slate-200 text-lg font-semibold tracking-wide">
+          Data Science • ML Engineering
         </p>
-        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-5">
-          Simarpreet Kaur
-        </h1>
-        <h2 class="text-xl md:text-2xl font-light text-slate-300 mb-6">
-          Building <span class="gradient-text font-semibold">reliable ML systems</span> and data products.
-        </h2>
-
-        <p class="text-slate-400 max-w-xl leading-relaxed mb-8">
-          I work across the full pipeline: messy data → clean features → models → evaluation → deployable outputs.
-          Interested in NLP, predictive modeling, and practical analytics that ship.
+        <p class="mt-2 text-slate-400 text-sm leading-relaxed">
+          Building practical ML systems end-to-end — from data pipelines to evaluation and deployable outputs.
         </p>
 
-        <div class="flex flex-wrap gap-3">
-          <a href="#projects"
-             class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-full font-semibold transition">
-            View Projects
-          </a>
-
-          <a href="Assets/Images/Simarpreet_Kaur - Resume.pdf"
-             class="border border-slate-600 hover:border-sky-400 px-6 py-3 rounded-full font-semibold transition"
-             download="SimarpreetKaurCV">
-            Download Resume
-          </a>
-
-          <a href="#contact"
-             class="border border-slate-700/70 hover:border-slate-500 px-6 py-3 rounded-full font-semibold transition text-slate-200">
-            Contact
-          </a>
+        <!-- Tech chips -->
+        <div class="mt-5 flex flex-wrap gap-2 text-xs">
+          <span class="px-3 py-1 rounded-full border border-slate-700/70 text-slate-300 bg-slate-950/30">Python</span>
+          <span class="px-3 py-1 rounded-full border border-slate-700/70 text-slate-300 bg-slate-950/30">SQL</span>
+          <span class="px-3 py-1 rounded-full border border-slate-700/70 text-slate-300 bg-slate-950/30">PyTorch</span>
+          <span class="px-3 py-1 rounded-full border border-slate-700/70 text-slate-300 bg-slate-950/30">scikit-learn</span>
+          <span class="px-3 py-1 rounded-full border border-slate-700/70 text-slate-300 bg-slate-950/30">NLP</span>
         </div>
       </div>
 
-      <!-- Right: Signature / Visual -->
-      <div class="glass rounded-3xl border border-slate-700/60 p-6">
-        <div class="rounded-2xl overflow-hidden border border-slate-700/60 bg-slate-950/40">
-          <img src="Assets/Images/simarpreet_signature_slower.gif"
-               alt="Signature animation"
-               class="w-full object-cover opacity-90"
-               style="mix-blend-mode: screen;" />
+      <!-- Quick highlights -->
+      <div class="mt-5 grid grid-cols-2 gap-4 text-sm text-slate-400">
+        <div class="glass rounded-2xl border border-slate-700/60 p-4">
+          <p class="text-slate-200 font-semibold mb-1">Focus</p>
+          <p>NLP • ML • Data Products</p>
         </div>
 
-        <div class="mt-5 grid grid-cols-2 gap-4 text-sm text-slate-400">
-          <div class="glass rounded-2xl border border-slate-700/60 p-4">
-            <p class="text-slate-200 font-semibold mb-1">Focus</p>
-            <p>NLP • ML • Data products</p>
-          </div>
-          <div class="glass rounded-2xl border border-slate-700/60 p-4">
-            <p class="text-slate-200 font-semibold mb-1">Stack</p>
-            <p>Python • SQL • PyTorch</p>
-          </div>
+        <div class="glass rounded-2xl border border-slate-700/60 p-4">
+          <p class="text-slate-200 font-semibold mb-1">Stack</p>
+          <p>Python • SQL • PyTorch</p>
+        </div>
+
+        <div class="glass rounded-2xl border border-slate-700/60 p-4 col-span-2">
+          <p class="text-slate-200 font-semibold mb-1">Strength</p>
+          <p>Clean pipelines, strong evaluation, shipping-ready outputs</p>
         </div>
       </div>
 
     </div>
-  </header>
+
+  </div>
+</header>
 
   <!-- ABOUT -->
   <section id="about" class="py-24 bg-slate-900/35">
