@@ -1,565 +1,495 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="scroll-smooth">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1XJKXMY6JH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  gtag('config', 'G-1XJKXMY6JH');
-</script>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Simarpreet Kaur",
-      "url": "https://simarpreet-kaur.com",
-      "sameAs": [
-        "https://www.linkedin.com/in/simarpreet-kaur-955393175/",
-        "https://github.com/kaursimar9464"
-        
-      ],
-        "jobTitle": "Data Scientist"
-    }  
-  </script>
-  <!--<style>
-    .typing-container {
-        margin-top: 20px;
-        font-size: 2rem;
-        font-weight: bold;
-        color: white;
-        min-height: 60px;
-        text-align: left; /* ensure left alignment */
-        font-family: 'Fira Code', 'Source Code Pro', monospace;
+  <title>Simarpreet Kaur | Applied AI & ML</title>
 
-        }
+  <!-- SEO / Social -->
+  <meta name="description" content="Simarpreet Kaur – Applied AI & ML portfolio. Projects in NLP, semantic search, predictive modeling, and data analytics." />
+  <meta property="og:title" content="Simarpreet Kaur – Applied AI & ML Portfolio" />
+  <meta property="og:description" content="Explore projects, certifications, and contact details." />
+  <meta property="og:image" content="Assets/Images/thumbnail.png" />
+  <meta property="og:url" content="https://simarpreet-kaur.com" />
 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    .typing {
-        display: inline;
-    }
-
-    .typed-cursor {
-        font-weight: 100;
-        font-size: 2rem;
-        color: white;
-        animation: blink 0.7s infinite;
-    }
-
-    @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-    }
-</style>
--->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Windows Tile Icon (optional) -->
-    <meta name="msapplication-TileImage" content="Assets/Images/profile-img.jpg">
-
-    <!-- SEO Meta Description and Keywords -->
-    <meta name="description" content="Simarpreet Kaur is a data science enthusiast skilled in Python, machine learning, and data visualization. Explore her professional portfolio, certifications, and projects.">
-    <meta name="keywords" content="Simarpreet Kaur, data scientist, Python, Tableau, machine learning, portfolio, data analysis, data visualization">
-
-    <!-- Open Graph Meta Tags (for social media previews) -->
-    <meta property="og:title" content="Simarpreet Kaur – Data Scientist Portfolio">
-    <meta property="og:description" content="Explore Simarpreet's data science projects, Tableau dashboards, and professional certifications.">
-    <meta property="og:image" itemprop="image" content="Assets/Images/thumbnail.png">
-    <meta property="og:image:type" content="image/jpg">
-    <meta property="og:url" content="https://simarpreet-kaur.com">
-
-    <title>Simarpreet Kaur</title>
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-
-
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" href="Assets/css/navbar.css">
-    <link rel="stylesheet" href="Assets/css/responsive.css">
+  <style>
+    body { background-color: #0b1220; color: #f8fafc; }
+    .glass { background: rgba(15, 23, 42, 0.65); backdrop-filter: blur(12px); }
+    .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; color: transparent; }
+  </style>
 </head>
 
-<body>
-    
+<body class="font-sans">
 
+  <!-- NAV -->
+  <nav class="fixed w-full z-50 glass border-b border-slate-700/60">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="Assets/Simarpreet_Kaur_TightlyCropped.png"
+             alt="Simarpreet Kaur logo"
+             class="w-10 h-10 rounded-full border border-slate-700/60" />
+        <span class="text-sm font-semibold tracking-widest uppercase text-slate-200">Simarpreet Kaur</span>
+      </a>
 
-    <!-- <audio id="playAudio" src="play.mp3"></audio> -->
-    <div id="bodyTop"><img src="Assets/Images/Icons/chevron-up.svg" alt=""></div>
-    <div class="cursor"></div>
+      <div class="space-x-8 hidden md:flex text-xs font-medium uppercase tracking-[0.18em] text-slate-300">
+        <a href="#about" class="hover:text-sky-300 transition">About</a>
+        <a href="#experience" class="hover:text-sky-300 transition">Experience</a>
+        <a href="#projects" class="hover:text-sky-300 transition">Projects</a>
+        <a href="#certifications" class="hover:text-sky-300 transition">Certifications</a>
+        <a href="#skills" class="hover:text-sky-300 transition">Skills</a>
+        <a href="#contact" class="hover:text-sky-300 transition">Contact</a>
+      </div>
 
+      <div class="hidden md:flex items-center gap-4">
+        <a href="https://github.com/kaursimar9464" target="_blank" class="text-slate-300 hover:text-sky-300 transition" aria-label="GitHub">
+          <i class="fa-brands fa-github text-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/simarpreet-kaur-955393175/" target="_blank" class="text-slate-300 hover:text-sky-300 transition" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-   <header id="header">
-    <div class="container py-3">
-      <nav class="d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center gap-3">
-          <a href="index.html">
-            <img src="Assets/Simarpreet_Kaur_TightlyCropped.png" alt="Simarpreet Logo" style="width: 200px; border-radius: 50%;">
+  <!-- HERO -->
+  <header id="top" class="min-h-screen flex items-center justify-center pt-28 pb-16">
+    <div class="max-w-6xl w-full mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+
+      <!-- Left: Text -->
+      <div>
+        <p class="text-xs uppercase tracking-[0.24em] text-slate-400 mb-3">
+          Applied AI • ML • NLP • Analytics
+        </p>
+        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-5">
+          Simarpreet Kaur
+        </h1>
+        <h2 class="text-xl md:text-2xl font-light text-slate-300 mb-6">
+          Building <span class="gradient-text font-semibold">reliable ML systems</span> and data products.
+        </h2>
+
+        <p class="text-slate-400 max-w-xl leading-relaxed mb-8">
+          I work across the full pipeline: messy data → clean features → models → evaluation → deployable outputs.
+          Interested in NLP, predictive modeling, and practical analytics that ship.
+        </p>
+
+        <div class="flex flex-wrap gap-3">
+          <a href="#projects"
+             class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-full font-semibold transition">
+            View Projects
+          </a>
+
+          <a href="Assets/Images/Simarpreet_Kaur - Resume.pdf"
+             class="border border-slate-600 hover:border-sky-400 px-6 py-3 rounded-full font-semibold transition"
+             download="SimarpreetKaurCV">
+            Download Resume
+          </a>
+
+          <a href="#contact"
+             class="border border-slate-700/70 hover:border-slate-500 px-6 py-3 rounded-full font-semibold transition text-slate-200">
+            Contact
           </a>
         </div>
-        <div class="d-none d-lg-flex align-items-center gap-4">
-          <a class="nav-item text-white fw-semibold text-uppercase" href="#works">Projects</a>
-          <a class="nav-item text-white fw-semibold text-uppercase" href="#about">About</a>
-          <a class="nav-item text-white fw-semibold text-uppercase" href="#certifications">Certifications</a>
-          <a class="nav-item text-white fw-semibold text-uppercase" href="#skills">Skills & Tech</a>
-          <a class="nav-item text-white fw-semibold text-uppercase" href="#contact">Contact</a>
+      </div>
 
+      <!-- Right: Signature / Visual -->
+      <div class="glass rounded-3xl border border-slate-700/60 p-6">
+        <div class="rounded-2xl overflow-hidden border border-slate-700/60 bg-slate-950/40">
+          <img src="Assets/Images/simarpreet_signature_slower.gif"
+               alt="Signature animation"
+               class="w-full object-cover opacity-90"
+               style="mix-blend-mode: screen;" />
         </div>
-        <div class="toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
-      <div class="menu-items">
-        <ul class="menu-links">
-          <li><a class="menu-item" href="#works">Projects</a></li>
-          <li><a class="menu-item" href="#about">About</a></li>
-          <li><a class="menu-item" href="#certifications">Certifications</a></li>
-          <li><a class="menu-item" href="#skills">Skills & Tech</a></li>
-          <li><a class="menu-item" href="#contact">Contact</a></li>
 
-        </ul>
-        <div class="social-container">
-          <a href="https://github.com/kaursimar9464" class="social-icon" target="_blank">GITHUB</a>
-          <img src="Assets/Images/Icons/arrow.svg" alt="">
-          <a href="https://www.linkedin.com/in/simarpreet-kaur-955393175/" class="social-icon" target="_blank">LINKEDIN</a>
-          <img src="Assets/Images/Icons/arrow.svg" alt="">
+        <div class="mt-5 grid grid-cols-2 gap-4 text-sm text-slate-400">
+          <div class="glass rounded-2xl border border-slate-700/60 p-4">
+            <p class="text-slate-200 font-semibold mb-1">Focus</p>
+            <p>NLP • ML • Data products</p>
+          </div>
+          <div class="glass rounded-2xl border border-slate-700/60 p-4">
+            <p class="text-slate-200 font-semibold mb-1">Stack</p>
+            <p>Python • SQL • PyTorch</p>
+          </div>
         </div>
       </div>
+
     </div>
   </header>
 
-    <main>
-        <!-- HOME SECTION START -->
-        <section class="home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                       <div style="margin-top: 1rem;">
-                            <img src="Assets/Images/simarpreet_signature_slower.gif" alt="" style="width: 100%; mix-blend-mode: screen;">
+  <!-- ABOUT -->
+  <section id="about" class="py-24 bg-slate-900/35">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">About</h3>
 
-                        </div>
-                        <!--<div class="typing-container">
-                            <span class="typing"></span>
-                        </div>-->
-                    </div>
-                    <!--<div class="col-lg-6";>
-                      <a href = "https://www.credly.com/badges/d3110731-7a29-407d-922a-570c5b6e6050/public_url" target="_blank">
-                        <img src="Assets/Images/google-advanced-data-analytics-certificate.png" alt="" style="width: 70%;">
-                      </a>
-                    </div>-->
-                </div>
-                <div class="scroll-indicator">
-                    <svg width="30" height="30" viewBox="0 0 30 30">
-                        <path d="M15 5v20M7 17l8 8 8-8" stroke="#fff" fill="none" stroke-width="2" />
-                    </svg>
-                </div>
-            </div>
-        </section>
-        <!-- HOME SECTION END -->
+      <div class="glass rounded-3xl border border-slate-700/60 p-8">
+        <p>
+            I’m a <strong>Computer Science graduate from McMaster University</strong> with a strong focus on
+            <strong>applied data science and machine learning</strong>, particularly in building models and analyses
+            that translate into real-world impact. My work emphasizes the full data science lifecycle from
+            data cleaning and exploratory analysis to modeling, evaluation, and clear communication of results.
+            </p>
 
+            <p>
+            I bring a <strong>detail-oriented and analytical approach</strong>, with experience working under real-world
+            constraints such as data quality issues, validation, and model reliability. I value reproducibility,
+            thoughtful evaluation, and practical deployment over purely theoretical results.
+            </p>
 
+            <p class="mb-6">
+                In addition to my technical background, I offer <strong>6+ years of customer-facing experience</strong>,
+                which has shaped my <strong>communication, collaboration, and stakeholder-focused mindset</strong>.
+                I’m comfortable explaining complex findings to non-technical audiences, working cross-functionally,
+                and building solutions that are both technically sound and user-centered.
+                </p>
 
-        <!-- WORK SECTION START -->
-        <section id="works" class="portfolio">
-            <div class="container">
-                <div class="hero-section ">
-                    <div class="row align-items-center">
-                        <div class="col-md-12 text-center">
-                            <h1 id="text-work" class="text-center" style="letter-spacing: 2px; font-weight: 600; font-size: 2.6rem; border-bottom: 2px solid #fff; display: inline-block; padding-bottom: 5px;">Projects</h1>
-                        </div>
-                    </div>
-                </div>
+                <div class="flex flex-wrap gap-3">
+                <a href="https://github.com/kaursimar9464" target="_blank"
+                    class="inline-flex items-center gap-2 border border-slate-600 hover:border-sky-400 px-5 py-2.5 rounded-full font-semibold transition">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                
 
-                <div class="row portfolio-grid">
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-card">
-                        <div class="media">
-                          <a href = "https://github.com/kaursimar9464/Calorie-Estimator" target="_blank">
-                            <img src="Assets/Images/Calories.png" alt="Blog Project" class="portfolio-image", style = "width: 100%; height: 100% ">
-                          </a> 
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-card">
-                        <div class="media">
-                          <a href = "https://github.com/kaursimar9464/Multilingual_news_explorer" target="_blank">
-                            <img src="Assets/Images/Multinews.png" alt="Blog Project" class="portfolio-image", style = "width: 100%; height: 100% ">
-                          </a> 
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-card">
-                        <div class="media">
-                          <a href = "https://github.com/kaursimar9464/Employee-Retention---Salifort-Motors" target="_blank">
-                            <img src="Assets/Images/Salifort.png" alt="Blog Project" class="portfolio-image", style = "width: 100%; height: 100% ">
-                          </a> 
-                        </div>
-                    </div>
-                    
-
-                    <!--<div class="col-lg-4 col-md-6 col-sm-12 portfolio-card">
-                        <div class="media">
-                            <a href = "https://github.com/kaursimar9464/K-Means-analysis" target="_blank">
-                                <img src="Assets/kmeans.png" alt="Blog Project" class="portfolio-image", style = "width: 100%; height: 100% ">
-                            </a>
-                        </div>
-                    </div>-->
-                    
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-card">
-                        <div class="media">
-                            <a href = "https://github.com/kaursimar9464/Waze_app_analysis" target="_blank">
-                                <img src="Assets/Images/waze.png" alt="Blog Project" class="portfolio-image", style = "width: 100%; height: 100% ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-card">
-                        <div class="media">
-                            <a href = "https://github.com/kaursimar9464/Supplier_KPI-Tableau" target="_blank">
-                                <img src="Assets/Images/Supplier.png" alt="Music Project"
-                                    class="portfolio-image", style = "width: 100%; height: 100% ">
-                            </a>
-                        </div>
-                    </div>
-
-
-                    
-                </div>
-            </div>
-        </section>
-        <!-- WORK SECTION END -->
-
-
-
-       <!-- ABOUT SECTION START -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-12 text-center">
-                    <h1 id="text-about" class="text-center text-uppercase text-white" style="letter-spacing: 2px; font-weight: 600; font-size: 2.6rem; border-bottom: 2px solid #fff; display: inline-block; padding-bottom: 5px;">ABOUT ME</h1>
-                </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                  
-                  <div class="about-text">
-                    <p>I’m <strong>Simarpreet Kaur,</strong> a fourth-year Computer Science student at McMaster University specializing in <strong>data science, machine learning, and AI-driven applications</strong>. My portfolio spans diverse, end-to-end projects: from building a <strong>Calorie Estimator with LLM Vision</strong> that extracts nutrition from food images, to designing a <strong>Multilingual News Explorer</strong> with semantic search and summarization across 8 languages, to analyzing <strong>20,000+ Waze user sessions</strong> for behavioral insights, and predicting <strong>employee attrition with 95%+ accuracy</strong> using advanced ML models.</p>
-                    
-                    <p>I thrive at the intersection of <strong>data, AI, and real-world impact</strong>, leveraging tools like <strong>Python, SQL, scikit-learn, PyTorch, Sentence-Transformers, and OpenAI’s GPT</strong> to transform raw data into actionable insights and intelligent applications. My technical expertise spans <strong>data cleaning, EDA, embeddings, multimodal LLMs, model deployment, and visualization</strong>—applied through impactful, production-grade projects.</p>
-                    
-                    <p>Beyond the technical work, I bring <strong>6+ years of leadership and client-facing experience</strong>, honing communication, collaboration, and problem-solving skills. Whether it’s deploying an API, delivering an executive summary, or guiding a project team, I focus on creating solutions that are both <strong>technically robust and user-centered</strong>.</p>
-                    
-                    <p>Outside of data and code, I love spending time in nature, traveling to explore new cultures, and capturing creativity through sketching and design. I enjoy experiences that broaden my perspective and bring fresh inspiration into both my personal life and the projects I work on.</p>
-
-                  </div>
-
-
-                  <a href="Assets/Images/Simarpreet_Kaur - Resume.pdf" class="download-resume d-inline-block mb-3" download="SimarpreetKaurCV">DOWNLOAD RESUME</a>
-                  <span class="social-links d-inline-block mb-4">
-                      <a href="https://github.com/kaursimar9464" class="social-icon" aria-label="GitHub" target="_blank"><img src="Assets/Images/Icons/github.svg" alt="GitHub" style="width: 40px; height: 40px;"></a>
-                      <a href="https://www.linkedin.com/in/simarpreet-kaur-955393175/" class="social-icon" aria-label="LinkedIn" target="_blank"><img src="Assets/Images/Icons/linkedin.svg" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
-                  </span>
-              </div>
-          </div>
-        </div>
-    </section>
-    <!-- ABOUT SECTION END -->
-<!-- CERTIFICATIONS SECTION START -->
-<section id="certifications" class="certifications py-5">
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="text-uppercase text-white"
-            style="letter-spacing: 2px; font-weight: 600; font-size: 2.6rem; border-bottom: 2px solid #fff; display: inline-block; padding-bottom: 5px;">
-          CERTIFICATIONS
-        </h1>
-      </div>
-    </div>
-    <div class="certification-grid mt-4">
-        <div class="cert-box">
-            <a href="https://www.coursera.org/account/accomplishments/verify/WU9DQKUH9KRF" target="_blank">
-            <img src="Assets/Images/Icons/deepai.jpg" alt="IBM" class="cert-icon">
-            <span class="cert-title">Neural Networks and Deep Learning </span>
-            <span class="cert-org">DeepLearning.AI · 2025</span>
-            </a>
-        </div>
-        <div class="cert-box">
-            <a href="https://www.credly.com/badges/d3110731-7a29-407d-922a-570c5b6e6050/public_url" target="_blank">
-            <img src="Assets/Images/Icons/google.jpg" alt="IBM" class="cert-icon">
-            <span class="cert-title">Google Advanced Data Analytics Certificate </span>
-            <span class="cert-org">Google · 2025</span>
-            </a>
-        </div>
-        <div class="cert-box">
-            <a href="https://www.coursera.org/account/accomplishments/verify/7HHKEHGUJ75Q" target="_blank">
-            <img src="Assets/Images/Icons/google.jpg" alt="IBM" class="cert-icon">
-            <span class="cert-title">The Nuts and Bolts of Machine Learning</span>
-            <span class="cert-org">Google · 2025</span>
-            </a>
-        </div>
-        <div class="cert-box">
-            <a href="https://www.coursera.org/account/accomplishments/verify/WDKX9Y6LT5NL" target="_blank">
-            <img src="Assets/Images/Icons/google.jpg" alt="Google" class="cert-icon">
-            <span class="cert-title">Regression Analysis: Simplify Complex Data
-Relationships</span>
-            <span class="cert-org">Google · 2025</span>
-            </a>
-        </div>
-        <div class="cert-box">
-            <a href="https://www.coursera.org/account/accomplishments/verify/Q7RR4MXHQAHN" target="_blank">
-            <img src="Assets/Images/Icons/ibm.png" alt="IBM" class="cert-icon">
-            <span class="cert-title">Data Analysis with Python</span>
-            <span class="cert-org">IBM · 2025</span>
-            </a>
-        </div>
-        <div class="cert-box">
-            <a href="https://www.coursera.org/account/accomplishments/verify/NF83JSFBDQAX" target="_blank">
-            <img src="Assets/Images/Icons/google.jpg" alt="Google" class="cert-icon">
-            <span class="cert-title">Getting Started with Python</span>
-            <span class="cert-org">Google · 2025</span>
-            </a>
-        </div>
-        <div class="cert-box">
-            <a href="https://www.coursera.org/account/accomplishments/verify/SQRBAWG8QK6Q" target="_blank">
-            <img src="Assets/Images/Icons/google.jpg" alt="Google" class="cert-icon">
-            <span class="cert-title">Translate Data into Insights</span>
-            <span class="cert-org">Google · 2025</span>
-            </a>
-        </div>
-        
-        <div class="cert-box">
-            <a href="Assets/BrainStation.pdf" target="_blank">
-            <img src="Assets/Images/Icons/brainstation.png" alt="BrainStation" class="cert-icon">
-            <span class="cert-title">Data Science Certificate</span>
-            <span class="cert-org">BrainStation · 2023</span>
-            </a>
-        </div>
-    </div>
-
-  </div>
-</section>
-<!-- CERTIFICATIONS SECTION END -->
-
-
-         <!-- SKILLS SECTION START -->
-  <section id="skills" class="skills py-5">
-    <div class="container" data-aos="fade-up">
-      <div class="col-md-12 text-center">
-                        <h1 id="text-about" class="text-center text-uppercase text-white" style="letter-spacing: 2px; font-weight: 600; font-size: 2.6rem; border-bottom: 2px solid #fff; display: inline-block; padding-bottom: 5px;">SKILL & TECH STACK</h1>
-
-            
-                    </div>
-      <div class="row g-4 mt-4">
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/python.jpg" alt="Python" style="width: 40px;">
-            <p class="text-white mt-2">Python</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/sql.png" alt="SQL" style="width: 40px;">
-            <p class="text-white mt-2">SQL</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/java.png" alt="Java" style="width: 40px;">
-            <p class="text-white mt-2">Java</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/c.png" alt="C/C++" style="width: 40px;">
-            <p class="text-white mt-2">C / C++</p>
-          </div>
-        </div>
-      </div>
-      <div class="row g-4 mt-3">
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/pandas.png" alt="Pandas" style="width: 40px;">
-            <p class="text-white mt-2">Pandas</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/numpy.png" alt="NumPy" style="width: 40px;">
-            <p class="text-white mt-2">NumPy</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/matplotlib.png" alt="Matplotlib" style="width: 40px;">
-            <p class="text-white mt-2">Matplotlib</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/seaborn.png" alt="Seaborn" style="width: 40px;">
-            <p class="text-white mt-2">Seaborn</p>
-          </div>
-        </div>
-      </div>
-      <div class="row g-4 mt-3">
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/sklearn.png" alt="Scikit-learn" style="width: 40px;">
-            <p class="text-white mt-2">Scikit-learn</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/ml.png" alt="ML Models" style="width: 40px;">
-            <p class="text-white mt-2">ML Models</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/jupyter.png" alt="Jupyter" style="width: 40px;">
-            <p class="text-white mt-2">Jupyter</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="skill-box text-center">
-            <img src="Assets/Images/Icons/google.png" alt="Google Sheets" style="width: 40px;">
-            <p class="text-white mt-2">Visualization & Storytelling</p>
-          </div>
+          <a href="https://www.linkedin.com/in/simarpreet-kaur-955393175/" target="_blank"
+             class="inline-flex items-center gap-2 border border-slate-600 hover:border-sky-400 px-5 py-2.5 rounded-full font-semibold transition">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
         </div>
       </div>
     </div>
   </section>
-  <!-- SKILLS SECTION END -->
 
-       
+  <!-- EXPERIENCE -->
+  <section id="experience" class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">Experience</h3>
 
-
-        
-
-       
-
-
-
-       
-
-
-        <!-- CONTACT SECTION START -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <div class="row align-items-center mb-5">
-                    <div class="col-md-12 text-center">
-                        <h1 class="main-heading" style="letter-spacing: 2px; font-weight: 600; font-size: 2.6rem; border-bottom: 2px solid #fff; display: inline-block; padding-bottom: 5px;">Get in Touch</h1>
-
-                        <p class="subtitle">Feel free to reach out via email.</p>
-                        <a href="mailto:kaursimar9464@gmail.com" class="contact-btn">Email Me</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-    <!-- FOOTER SECTION START -->
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="footer-section">
-                
-
-                <div class="container p-0">
-                    <div class="row footer-row justify-content-between align-items-center">
-                        <div class="col-auto">
-                            <div class="footer-text">© 2025 DESIGN</div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+      <div class="glass rounded-3xl border border-slate-700/60 p-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+          <div>
+            <h4 class="text-xl font-bold text-sky-300">Data Science Prompt Engineer</h4>
+            <p class="text-slate-300">Outlier</p>
+          </div>
+          <p class="text-slate-400 text-sm">Oct 2025 – Present</p>
         </div>
-    </footer>
-    <!-- FOOTER SECTION END -->
+
+        <ul class="space-y-3 text-slate-400 list-disc ml-5 leading-relaxed">
+          <li>Designed and refined prompts for end-to-end data science workflows: EDA, feature engineering, and modeling.</li>
+          <li>Produced gold-standard solutions in Python (Pandas / scikit-learn), validating correctness and edge cases.</li>
+          <li>Performed error analysis on model outputs to improve numerical accuracy and analytical reliability.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-24 bg-slate-900/35">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">Selected Projects</h3>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Calorie Estimator -->
+        <!--<a href="https://github.com/kaursimar9464/Calorie-Estimator" target="_blank"
+           class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+          <img src="Assets/Images/Calories.png" alt="Calorie Estimator" class="w-full h-44 object-cover opacity-90 group-hover:opacity-100 transition" />
+          <div class="p-6">
+            <h4 class="text-lg font-bold mb-1">Calorie Estimator (LLM Vision)</h4>
+            <p class="text-xs text-sky-300 font-mono mb-3">Computer Vision • LLM • Data Extraction</p>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Extracts nutrition insights from food images and outputs structured results for analysis.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-slate-200">
+              <i class="fa-brands fa-github"></i> View Repo
+            </div>
+          </div>
+        </a>
+    -->
+        <!-- Pocket AI (Private Project) -->
+            <div
+            class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+
+            <!-- Project Image -->
+            <img
+                src="Assets/Images/pocket-ai.png"
+                alt="Pocket AI – Voice to Structured Data Pipeline"
+                class="w-full h-44 object-cover opacity-90 group-hover:opacity-100 transition"
+            />
+
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-1">
+                <h4 class="text-lg font-bold">Pocket AI</h4>
+                <span
+                    class="text-xs uppercase tracking-widest text-slate-400 border border-slate-600 px-2 py-0.5 rounded-full">
+                    Private
+                </span>
+                </div>
+
+                <p class="text-xs text-sky-300 font-mono mb-3">
+                Whisper AI • NLP • Speech → JSON
+                </p>
+
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                Voice-activated NLP system that converts spoken commands into structured JSON using
+                real-time audio streaming, Whisper-based transcription, and custom parsing logic.
+                </p>
+
+                <p class="text-xs text-slate-500 italic">
+                Private client project — architecture and technical details available upon request.
+                </p>
+            </div>
+            </div>
+
+        <!-- Multilingual News Explorer -->
+        <a href="https://github.com/kaursimar9464/Multilingual_news_explorer" target="_blank"
+           class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+          <img src="Assets/Images/Multinews.png" alt="Multilingual News Explorer" class="w-full h-44 object-cover opacity-90 group-hover:opacity-100 transition" />
+          <div class="p-6">
+            <h4 class="text-lg font-bold mb-1">Multilingual News Explorer</h4>
+            <p class="text-xs text-sky-300 font-mono mb-3">SBERT • Semantic Search • NLP</p>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Semantic search + summarization across multiple languages with an app-style interface.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-slate-200">
+              <i class="fa-brands fa-github"></i> View Repo
+            </div>
+          </div>
+        </a>
+
+        <!-- Employee Retention -->
+        <a href="https://github.com/kaursimar9464/Employee-Retention---Salifort-Motors" target="_blank"
+           class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+          <img src="Assets/Images/Salifort.png" alt="Employee Retention" class="w-full h-44 object-cover opacity-90 group-hover:opacity-100 transition" />
+          <div class="p-6">
+            <h4 class="text-lg font-bold mb-1">Employee Retention Modeling</h4>
+            <p class="text-xs text-sky-300 font-mono mb-3">Predictive ML • Evaluation • Insights</p>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Built and evaluated predictive models to identify retention risk and actionable drivers.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-slate-200">
+              <i class="fa-brands fa-github"></i> View Repo
+            </div>
+          </div>
+        </a>
+
+        <!-- Waze -->
+        <a href="https://github.com/kaursimar9464/Waze_app_analysis" target="_blank"
+           class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+          <img src="Assets/Images/waze.png" alt="Waze Analysis" class="w-full h-44 object-cover opacity-90 group-hover:opacity-100 transition" />
+          <div class="p-6">
+            <h4 class="text-lg font-bold mb-1">Waze User Behavior Analysis</h4>
+            <p class="text-xs text-sky-300 font-mono mb-3">EDA • Segmentation • Storytelling</p>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Behavioral insights and patterns from large-scale session data to support product decisions.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-slate-200">
+              <i class="fa-brands fa-github"></i> View Repo
+            </div>
+          </div>
+        </a>
+
+        <!-- Supplier KPI Tableau -->
+        <a href="https://github.com/kaursimar9464/Supplier_KPI-Tableau" target="_blank"
+           class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+          <img src="Assets/Images/Supplier.png" alt="Supplier KPI Tableau" class="w-full h-44 object-cover opacity-90 group-hover:opacity-100 transition" />
+          <div class="p-6">
+            <h4 class="text-lg font-bold mb-1">Supplier KPI Dashboard</h4>
+            <p class="text-xs text-sky-300 font-mono mb-3">Tableau • KPI Design • Visualization</p>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Built KPI-driven visual analytics for monitoring performance and operational trends.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-slate-200">
+              <i class="fa-brands fa-github"></i> View Repo
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">Certifications</h3>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <a class="glass rounded-3xl border border-slate-700/60 p-6 hover:border-sky-500 transition"
+           href="https://www.coursera.org/account/accomplishments/verify/WU9DQKUH9KRF" target="_blank">
+          <div class="flex items-center gap-4">
+            <img src="Assets/Images/Icons/deepai.jpg" alt="DeepLearning.AI" class="w-10 h-10 rounded-lg" />
+            <div>
+              <p class="font-semibold text-slate-200">Neural Networks and Deep Learning</p>
+              <p class="text-sm text-slate-400">DeepLearning.AI · 2025</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="glass rounded-3xl border border-slate-700/60 p-6 hover:border-sky-500 transition"
+           href="https://www.credly.com/badges/d3110731-7a29-407d-922a-570c5b6e6050/public_url" target="_blank">
+          <div class="flex items-center gap-4">
+            <img src="Assets/Images/Icons/google.jpg" alt="Google" class="w-10 h-10 rounded-lg" />
+            <div>
+              <p class="font-semibold text-slate-200">Google Advanced Data Analytics</p>
+              <p class="text-sm text-slate-400">Google · 2025</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="glass rounded-3xl border border-slate-700/60 p-6 hover:border-sky-500 transition"
+           href="https://www.coursera.org/account/accomplishments/verify/7HHKEHGUJ75Q" target="_blank">
+          <div class="flex items-center gap-4">
+            <img src="Assets/Images/Icons/google.jpg" alt="Google" class="w-10 h-10 rounded-lg" />
+            <div>
+              <p class="font-semibold text-slate-200">The Nuts and Bolts of ML</p>
+              <p class="text-sm text-slate-400">Google · 2025</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="glass rounded-3xl border border-slate-700/60 p-6 hover:border-sky-500 transition"
+           href="https://www.coursera.org/account/accomplishments/verify/WDKX9Y6LT5NL" target="_blank">
+          <div class="flex items-center gap-4">
+            <img src="Assets/Images/Icons/google.jpg" alt="Google" class="w-10 h-10 rounded-lg" />
+            <div>
+              <p class="font-semibold text-slate-200">Regression Analysis</p>
+              <p class="text-sm text-slate-400">Google · 2025</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="glass rounded-3xl border border-slate-700/60 p-6 hover:border-sky-500 transition"
+           href="https://www.coursera.org/account/accomplishments/verify/Q7RR4MXHQAHN" target="_blank">
+          <div class="flex items-center gap-4">
+            <img src="Assets/Images/Icons/ibm.png" alt="IBM" class="w-10 h-10 rounded-lg" />
+            <div>
+              <p class="font-semibold text-slate-200">Data Analysis with Python</p>
+              <p class="text-sm text-slate-400">IBM · 2025</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="glass rounded-3xl border border-slate-700/60 p-6 hover:border-sky-500 transition"
+           href="Assets/BrainStation.pdf" target="_blank">
+          <div class="flex items-center gap-4">
+            <img src="Assets/Images/Icons/brainstation.png" alt="BrainStation" class="w-10 h-10 rounded-lg" />
+            <div>
+              <p class="font-semibold text-slate-200">Data Science Certificate</p>
+              <p class="text-sm text-slate-400">BrainStation · 2023</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-24 bg-slate-900/35">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-12">Technical Arsenal</h3>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-left">
+
+        <div class="glass rounded-3xl border border-slate-700/60 p-6">
+          <p class="text-sky-300 font-bold uppercase text-xs tracking-[0.18em] mb-4">ML / AI</p>
+          <div class="space-y-3 text-slate-300 text-sm">
+            <div class="flex items-center gap-3"><img src="Assets/Images/Icons/sklearn.png" class="w-6" alt="sklearn" /> scikit-learn</div>
+            <div class="flex items-center gap-3">
+            <img src="Assets/Images/Icons/ml.png" class="w-6" alt="ml" />
+            ML Modeling & Evaluation
+            </div>
+            <div class="flex items-center gap-3">
+            <span class="w-6 text-center">📈</span>
+            F1, ROC-AUC, Cross-Validation
+            </div>
+
+            <div class="flex items-center gap-3"><span class="w-6 text-center">🧠</span> NLP / Embeddings</div>
+          </div>
+        </div>
+
+       <div class="glass rounded-3xl border border-slate-700/60 p-6">
+            <p class="text-sky-300 font-bold uppercase text-xs tracking-[0.18em] mb-4">
+                Languages & Query
+            </p>
+
+            <div class="space-y-3 text-slate-300 text-sm">
+                <div class="flex items-center gap-3">
+                <img src="Assets/Images/python.jpg" class="w-6" alt="python" />
+                Python
+                </div>
+
+                <div class="flex items-center gap-3">
+                <img src="Assets/Images/Icons/sql.png" class="w-6" alt="sql" />
+                SQL
+                </div>
+
+                <div class="flex items-center gap-3">
+                <span class="w-6 text-center">🐍</span>
+                Scripting & Data Pipelines
+                </div>
+
+                <div class="flex items-center gap-3">
+                <span class="w-6 text-center">🔎</span>
+                Data Querying & Analysis
+                </div>
+            </div>
+            </div>
 
 
+        <div class="glass rounded-3xl border border-slate-700/60 p-6">
+          <p class="text-sky-300 font-bold uppercase text-xs tracking-[0.18em] mb-4">Data</p>
+          <div class="space-y-3 text-slate-300 text-sm">
+            <div class="flex items-center gap-3"><img src="Assets/Images/Icons/pandas.png" class="w-6" alt="pandas" /> Pandas</div>
+            <div class="flex items-center gap-3"><img src="Assets/Images/Icons/numpy.png" class="w-6" alt="numpy" /> NumPy</div>
+            <div class="flex items-center gap-3"><img src="Assets/Images/Icons/jupyter.png" class="w-6" alt="jupyter" /> Jupyter</div>
+          </div>
+        </div>
 
+        <div class="glass rounded-3xl border border-slate-700/60 p-6">
+          <p class="text-sky-300 font-bold uppercase text-xs tracking-[0.18em] mb-4">Viz</p>
+          <div class="space-y-3 text-slate-300 text-sm">
+            <div class="flex items-center gap-3"><img src="Assets/Images/Icons/matplotlib.png" class="w-6" alt="matplotlib" /> Matplotlib</div>
+            <div class="flex items-center gap-3"><img src="Assets/Images/Icons/seaborn.png" class="w-6" alt="seaborn" /> Seaborn</div>
+            <div class="flex items-center gap-3"><span class="w-6 text-center">📊</span> Tableau / BI</div>
+          </div>
+        </div>
 
+      </div>
+    </div>
+  </section>
 
+  <!-- CONTACT -->
+  <section id="contact" class="py-24">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+      <p class="text-slate-400 mb-10">Open to full-time roles. Reach out anytime.</p>
 
+      <div class="flex justify-center flex-wrap gap-3 mb-10">
+        <a href="mailto:kaursimar9464@gmail.com"
+           class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-full font-semibold transition inline-flex items-center gap-2">
+          <i class="fa-solid fa-envelope"></i> Email Me
+        </a>
 
-    <!-- jquery js  -->
-    <script src="Assets/js/jquery.js"></script>
+        <a href="https://www.linkedin.com/in/simarpreet-kaur-955393175/" target="_blank"
+           class="border border-slate-600 hover:border-sky-400 px-6 py-3 rounded-full font-semibold transition inline-flex items-center gap-2">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
 
-    <!-- BOOTSTRAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
-        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <a href="https://github.com/kaursimar9464" target="_blank"
+           class="border border-slate-600 hover:border-sky-400 px-6 py-3 rounded-full font-semibold transition inline-flex items-center gap-2">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
 
-    <script src="https://unpkg.com/split-type"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-
-    <!--<script src="Assets/js/navbar.js"></script>-->
-    <script src="Assets/js/service-section.js"></script>
-    <script src="Assets/js/testimonial.js"></script>
-    <script src="Assets/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!--<script>
-        window.addEventListener('load', function () {
-            const typingElement = document.querySelector(".typing");
-            if (typingElement) {
-                new Typed(typingElement, {
-                    strings: ["    Data Scientist", "    Problem Solver", "    Creative Thinker"],
-                    typeSpeed: 60,
-                    backSpeed: 30,
-                    backDelay: 2000,
-                    loop: true
-                });
-            } else {
-                console.error("Could not find element with class .typing");
-            }
-        });
-    </script>-->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.querySelector(".toggle");
-    const menuItems = document.querySelector(".menu-items");
-    const menuLinks = document.querySelectorAll(".menu-item");
-
-    toggle.addEventListener("click", () => {
-      menuItems.classList.toggle("open");
-      toggle.classList.toggle("active");
-    });
-
-    menuLinks.forEach(link => {
-      link.addEventListener("click", () => {
-        menuItems.classList.remove("open");
-        toggle.classList.remove("active");
-      });
-    });
-  });
-</script>
-
-
-
+      <p class="text-slate-500 text-sm border-t border-slate-800/80 pt-8">
+        © 2025 Simarpreet Kaur 
+      </p>
+    </div>
+  </section>
 
 </body>
-
 </html>
