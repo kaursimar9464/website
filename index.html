@@ -159,10 +159,11 @@
         </p>
 
         <p class="mb-6 text-slate-300 leading-relaxed">
-          In addition to my technical background, I offer <strong>6+ years of customer-facing experience</strong>,
-          which has shaped my <strong>communication, collaboration, and stakeholder-focused mindset</strong>.
-          I'm comfortable explaining complex findings to non-technical audiences, working cross-functionally,
-          and building solutions that are both technically sound and user-centered.
+          Alongside the technical work, I lead operations for a high-volume retail location &mdash; owning
+          <strong>P&amp;L review, inventory accuracy, hiring, and team development</strong>. That side of my
+          background is where most of my project ideas come from: I see operational problems firsthand,
+          then build systems to fix them. It also means I'm used to explaining technical decisions to
+          people who care about outcomes rather than models.
         </p>
 
         <div class="flex flex-wrap gap-3">
@@ -187,6 +188,25 @@
 
       <div class="flex flex-col gap-6">
 
+        <!-- Best Buy -->
+        <div class="glass rounded-3xl border border-slate-700/60 p-8">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+            <div>
+              <h4 class="text-xl font-bold text-sky-300">Team Lead, Operations</h4>
+              <p class="text-slate-300">Best Buy &middot; <span class="text-slate-400 text-sm">Specialist &rarr; Senior Specialist &rarr; Team Lead</span></p>
+            </div>
+            <p class="text-slate-400 text-sm">Oct 2022 &ndash; Present</p>
+          </div>
+
+          <ul class="space-y-3 text-slate-400 list-disc ml-5 leading-relaxed">
+            <li>Review P&amp;L and key business metrics to identify performance gaps and direct operational priorities for a high-volume location.</li>
+            <li>Investigate inventory discrepancies to root cause, driving improvements in stock accuracy and shrink control.</li>
+            <li>Lead hiring, onboarding, training, and coaching for the operations team.</li>
+            <li>Own daily operations across inventory, fulfillment, merchandising, and customer service.</li>
+            <li>Build internal tooling to replace manual operational processes &mdash; see the Inventory Tracking Tool below.</li>
+          </ul>
+        </div>
+
         <!-- Outlier -->
         <div class="glass rounded-3xl border border-slate-700/60 p-8">
           <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
@@ -198,25 +218,8 @@
           </div>
 
           <ul class="space-y-3 text-slate-400 list-disc ml-5 leading-relaxed">
-            <li>Designed and implemented end-to-end data science workflows in Python, producing gold-standard EDA, feature engineering, and ML modeling solutions for LLM benchmarking.</li>
-            <li>Executed statistical analysis, cross-validation pipelines, and model performance assessments (F1, ROC-AUC) using Pandas, NumPy, and scikit-learn, ensuring technical accuracy of gold-standard outputs.</li>
-            <li>Performed error analysis on model outputs to improve numerical accuracy and analytical reliability.</li>
-          </ul>
-        </div>
-
-        <!-- Best Buy -->
-        <div class="glass rounded-3xl border border-slate-700/60 p-8">
-          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
-            <div>
-              <h4 class="text-xl font-bold text-sky-300">Specialist &rarr; Senior Specialist</h4>
-              <p class="text-slate-300">Best Buy</p>
-            </div>
-            <p class="text-slate-400 text-sm">Oct 2022 &ndash; Present</p>
-          </div>
-
-          <ul class="space-y-3 text-slate-400 list-disc ml-5 leading-relaxed">
-            <li>Promoted to Senior Specialist; mentored team members and upheld high performance standards in a high-volume, fast-paced environment.</li>
-            <li>Applied strong analytical thinking and client-facing communication skills advising customers on complex technical product decisions.</li>
+            <li>Built data science workflows in Python for LLM benchmarking, covering EDA, feature engineering, and model evaluation.</li>
+            <li>Ran error analysis and model performance assessment (F1, ROC-AUC, cross-validation) using Pandas, NumPy, and scikit-learn.</li>
           </ul>
         </div>
 
@@ -230,6 +233,35 @@
       <h3 class="text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">Selected Projects</h3>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Inventory Tracking Tool (Internal) -->
+        <div class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
+          <div class="w-full h-44 flex items-center justify-center bg-gradient-to-br from-sky-500/20 via-indigo-500/15 to-slate-900/60 border-b border-slate-700/60">
+            <i class="fa-solid fa-barcode text-6xl text-sky-300/70"></i>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-1">
+              <h4 class="text-lg font-bold">Inventory Tracking Tool</h4>
+              <span class="text-xs uppercase tracking-widest text-slate-400 border border-slate-600 px-2 py-0.5 rounded-full">
+                Internal
+              </span>
+            </div>
+            <p class="text-xs text-sky-300 font-mono mb-3">Barcode Scan &bull; Web App &bull; Deployed in Production</p>
+            <p class="text-slate-400 text-sm leading-relaxed mb-3">
+              High-value stock was leaving a secured cage with no record of who took what or when.
+              Built and deployed a browser-based scanning tool that captures UPC, employee, and timestamp
+              at the point of removal &mdash; running on a shared store device, in daily use by staff.
+            </p>
+            <p class="text-slate-400 text-sm leading-relaxed mb-3">
+              Shipped around real constraints: no access to the corporate app platform, mobile-browser-only
+              deployment, UPC integrity through CSV export, and type-ahead employee lookup after watching
+              staff scroll a long list.
+            </p>
+            <p class="text-xs text-slate-500 italic">
+              Internal operations tool &mdash; walkthrough available on request.
+            </p>
+          </div>
+        </div>
 
         <!-- Pocket AI (Private Project) -->
         <div class="group glass rounded-3xl border border-slate-700/60 overflow-hidden hover:border-sky-500 transition">
@@ -529,4 +561,4 @@
   </section>
 
 </body>
-</html>
+</html>
